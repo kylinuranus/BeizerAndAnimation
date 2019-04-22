@@ -1,0 +1,8 @@
+
+
+target 'AnimationBezier' do 
+
+  pod 'pop' 
+  pod 'Masonry'
+
+end

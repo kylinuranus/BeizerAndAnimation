@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  AnimationBezier
+//
+//  Created by 赵申侃 on 2017/11/14.
+//  Copyright © 2019 赵申侃. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#import <POP.h>
+#import "UIView+BXTExtension.h"
+#import "WKTool.h"
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#endif /* PrefixHeader_pch */
